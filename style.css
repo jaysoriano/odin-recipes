@@ -1,9 +1,11 @@
+/* TYPE SELECTORS */
 h1 {
     text-align:center;
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
     font-weight: bold;
     text-decoration: underline;
+    color: pink;
 }
 
 body {
@@ -11,6 +13,7 @@ body {
     height: 100vh;
 }
 
+/* CLASS SELECTORS */
 .block {
     display: block;
     margin:auto;
@@ -18,7 +21,21 @@ body {
     width: min(70%, 500px);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
 }
+.recipe {
+    padding: 5px;
+    font-size: 1.5rem;
+    color: pink;
+}
 
+.nezukosRecipe{
+    color: pink;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* ID SELECTORS */
 #contents {
     margin-top: 2rem;
     height: 300px;
@@ -28,12 +45,3 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.recipe {
-    padding: 5px;
-    font-size: 1.5rem;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-}

@@ -24,7 +24,8 @@ body {
 .recipe {
     padding: 5px;
     font-size: 1.5rem;
-    color: pink;
+    color: black;
+    background-color: #FFC0CB;
 }
 
 .nezukosRecipe{

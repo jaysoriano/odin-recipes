@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(180deg, #FFEEEE, #DDEFBB);
+    height: 500vh;
+}
+
+.header{
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    padding: 8px;
+    gap:10px;
+    justify-content: space-between;
+    padding:10px;
+    padding-left: 20px;
+}
+.leftHeader, .rightHeader{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+.contents{
+    border: 5px solid black;
+    display:flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 50px;
+}
+.description{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.ingredients{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.directions{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#headerIcon{
+    width:64px;
+    height:64px;
+}
+#headerTitle{
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: pink;
+}

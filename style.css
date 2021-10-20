@@ -1,48 +1,71 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 /* TYPE SELECTORS */
-h1 {
-    text-align:center;
-    font-family: 'Playfair Display', serif;
-    font-size: 3rem;
-    font-weight: bold;
-    text-decoration: underline;
-    color: pink;
+body{
+    background: linear-gradient(180deg, #FFEEEE, #DDEFBB);
+    height: 500vh;
 }
 
-body {
-    background: linear-gradient(180deg, #FFEEEE, #DDEFBB);
-    height: 100vh;
+a{
+    color: black;
+    text-decoration: none;
 }
 
 /* CLASS SELECTORS */
-.block {
+.header{
+    display: flex;
+    gap:10px;
+    margin:auto;
+    padding:10px;
+    padding-left: 20px;
+}
+.icon{
+    display: block;
+    border-radius: 25px;
+}
+.recipe{
+    padding: 5px;
+    font-size: 1.5rem;
+    color: black;
+}
+.recipeImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+.recipe .recipeImg:hover{
+    transform: scale(1.05);
+    transition: all ease ;
+    border-radius: 35px;
+    box-shadow: 0 0 5px rgb(136, 219, 140);
+}
+/* .block{
     display: block;
     margin:auto;
     border-radius: 25px;
     width: min(70%, 500px);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
-}
-.recipe {
-    padding: 5px;
-    font-size: 1.5rem;
-    color: black;
-    background-color: #FFC0CB;
-}
-
-.nezukosRecipe{
-    color: pink;
-}
-a {
-    color: black;
-    text-decoration: none;
-}
+} */
 
 /* ID SELECTORS */
-#contents {
-    margin-top: 2rem;
-    height: 300px;
-    border: 1px solid black;
-    text-align: left;
-    border-radius: 25px;
-    background-color: rgb(255, 255, 255);
+#headerIcon{
+    width:64px;
+    height:64px;
 }
-
+#headerTitle{
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: pink;
+}
+#contents{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    gap: 40px;
+}

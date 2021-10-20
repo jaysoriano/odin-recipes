@@ -10,15 +10,24 @@
     </head>
 
     <body>
-        <h1>Nezuko's Recipes</h1>
-        <img class = "block" src = "images/nezuko.gif" alt = "Nezuko is running">
-            <div id = "contents" class = "block">
-                <ul class = "nezukosRecipes">
-                    <li class = "recipe"><a class = "recipe" href ="recipes/lasagna.html">Lasagna</a></li>
-                    <li class = "recipe"><a class = "recipe" href ="recipes/cookies.html">Cookies</a></li>
-                    <li class = "recipe"><a class = "recipe" href ="recipes/eggpie.html">Egg Pie</a></li>
-                </ul>
+        <div class ="header">
+            <img id="headerIcon" class = "icon" src = "images/nezuko.gif" alt = "Nezuko is running">
+            <h1 id ="headerTitle">Nezuko's Recipes</h1>
+        </div>
+        <div id = "contents">
+            <div class="recipe">
+                <a href ="recipes/cookies.html"><img class ="recipeImg" src="images/cookies.jpeg"></a>
+                <p>Cookies</p>
             </div>
+            <div class="recipe">
+                <a href ="recipes/eggpie.html"><img class ="recipeImg" src="images/eggpie.jpeg"></a>
+                <p>Eggpie</p>
+            </div>
+            <div class="recipe">
+                <a href ="recipes/lasagna.html"><img class ="recipeImg" src="images/lasagna.jpeg"></a>
+                <p>Lasagna</p>
+            </div>
+        </div>
     </body>
     
 </html>
